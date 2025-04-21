@@ -2,6 +2,8 @@
 
 A macOS Alfred workflow that displays sunrise/sunset times for your current location on a specific date (default today).
 
+![Screenshot](screenshot.png)
+
 ## ⚙️ Setup
 
 1. **Install the Workflow**  
