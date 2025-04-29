@@ -33,7 +33,10 @@ Download the .alfredworkflow file and double-click it to install into Alfred.
 
 ## Configuration
 
-No configuration needed!
+1. Obtain an API key from https://timezonedb.com/api (required)
+2. In "Configure Workflow" enter your API key
+3. If you prefer to enter dates in DD-MM format, check the box for that
+4. If you want to store a log file for debugging purposes, chdck the box for that
 
 This workflow includes a self-contained Python virtual environment, so you don’t need to worry about dependencies.
 
@@ -56,6 +59,8 @@ If you encounter an error like:
 
 it usually means the virtual environment wasn’t bundled correctly or is not being used. Try re-installing the workflow or rebuilding the virtual environment using the steps above.
 
+Your location is based upon your IP address, so if you're using a VPN your sunrise information will be based on the location of your VPN server.
+
 ### Optional Tweaks
 
 If you want to edit the script, right-click the workflow in Alfred → "Show in Finder" → Open `SunriseSunset.py`.
@@ -63,11 +68,6 @@ If you want to edit the script, right-click the workflow in Alfred → "Show in 
 ## 📦 Download
 
 [Download the latest .alfredworkflow file](https://github.com/drdannysands/sunrisesunset/releases)
-
-
-## Planned enhancement
-
-Permit workflow configuration to permit script to accept DD/MM instead of MM/DD.
 
 ## 🤝 Contributing
 
